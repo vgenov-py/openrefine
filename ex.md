@@ -4,6 +4,9 @@
 ```python
  https://datos.comunidad.madrid/catalogo/dataset/35609dd5-9430-4d2e-8198-3eeb277e5282/resource/1dd3e628-6f06-45e5-bb7b-36d6e6e557cf/download/desfibriladores_externos_fuera_ambito_sanitario.csv
 ```
+```python
+https://docs.openrefine.org/manual/expressions#variables
+```
 
 1. Convertir direccion_coordenada_x mediante interfaz
 2. Convertir direccion_coordenada_y mediante una expresión
