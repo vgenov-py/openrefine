@@ -14,16 +14,16 @@ https://docs.openrefine.org/manual/expressions#variables
 ```python
 (40302,498851)
 ```
-4. Exportar en xls
-5. Agrupar horarios de disponibilidad
-6. Colocar Horario no disponible en todo horario sin valores
-7. Unir direccion_via_codigo, direccion_via_nombre y direccion_portal_numero (title)
+4. Agrupar horarios de disponibilidad
+5. Colocar Horario no disponible en todo horario sin valores
+6. Unir direccion_via_codigo, direccion_via_nombre y direccion_portal_numero (title)
 ```python
 Calle De Rios Rosas, 23
 ```
-8. De las columnas mencionadas en el punto 6, dejar sólo la que contiene toda la información
-9. Agregar una columna url_id que agregue la siguiente URL a cada codigo_dea
+7. De las columnas mencionadas en el punto 6, dejar sólo la que contiene toda la información
+8. Agregar una columna url_id que agregue la siguiente URL a cada codigo_dea
 ```python
 https://www.deamadrid.com/id/<codigo_dea>
 ```
-10. Modificar columna direccion_ubicacion, si es privada upper si es pública lower
+9. Modificar columna direccion_ubicacion, si es privada upper si es pública lower
+10. Exportar en xls
