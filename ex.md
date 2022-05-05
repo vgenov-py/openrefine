@@ -20,6 +20,9 @@ https://docs.openrefine.org/manual/expressions#variables
 ```python
 Calle De Rios Rosas, 23
 ```
+```js
+forEach(value.split(" "), v , if(v.contains(/^M{0,3}(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3}),$/i), v.toUppercase(), v)).join(" ")
+```
 7. De las columnas mencionadas en el punto 6, dejar sólo la que contiene toda la información
 8. Agregar una columna url_id que agregue la siguiente URL a cada codigo_dea
 ```python
